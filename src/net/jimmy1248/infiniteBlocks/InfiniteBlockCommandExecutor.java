@@ -7,10 +7,11 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 
-public class InfiniteLavaCommandExecutor implements CommandExecutor{
+public class InfiniteBlockCommandExecutor implements CommandExecutor{
+	@SuppressWarnings("unused")
 	private InfiniteBlocks plugin;
 	
-	public InfiniteLavaCommandExecutor(InfiniteBlocks plugin){
+	public InfiniteBlockCommandExecutor(InfiniteBlocks plugin){
 		this.plugin = plugin;
 	}
 	
@@ -40,6 +41,7 @@ public class InfiniteLavaCommandExecutor implements CommandExecutor{
 		
 	}
 
+	@SuppressWarnings("unused")
 	private void place(Player player,String[] args) {
 		Block block = player.getTargetBlock(null, 20);
 		if(args.length==3){

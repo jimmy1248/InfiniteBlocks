@@ -13,7 +13,7 @@ public class InfiniteBlocks extends JavaPlugin{
 	@Override
 	public void onEnable() {
 		 logger = getLogger();
-		getCommand("infiniteblocks").setExecutor(new InfiniteLavaCommandExecutor(this));
+		getCommand("infiniteblocks").setExecutor(new InfiniteBlockCommandExecutor(this));
 	}
 	@Override
 	public void onDisable() {	
