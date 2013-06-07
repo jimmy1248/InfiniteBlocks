@@ -1,0 +1,10 @@
+name: InfiniteBlocks
+main: net.jimmy1248.infiniteBlocks.InfiniteBlocks
+version: 1.0
+commands:
+   infiniteblock:
+      description: Place a block of lava
+      usage: /infiniteblocks place|list|remove
+      permission: infiniteblocks
+      permission-message: You don't have the permission to use this command.
+
