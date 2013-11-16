@@ -38,7 +38,10 @@ public class Blocks {
 	}
 	
 	private String createKey(int[] location){
-		return Integer.toString(location[0])+"_"+Integer.toString(location[1])+"_"+Integer.toString(location[2]);
+		int loc0 = location[0];
+		int loc1 = location[1];
+		int loc2 = location[2];
+		return Integer.toString(loc0) + "_" + Integer.toString(loc1) + "_" + Integer.toString(loc2);
 	}
 	
 	public int[] getLocation(Block block){
